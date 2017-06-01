@@ -2,6 +2,7 @@ Add Printer Module
 #Creator: Ross Halford
 #Date: 01/07/2016
 #Status: Beta
+#Info: Didnt have a cmdlet for adding network printers on win7.
 
 #Working Body
 Function Add-Printer
