@@ -12,10 +12,10 @@ Get-DnsClientCache #Provides DNS Cache Information
 New-SmbMapping -LocalPath S: -RemotePath \\ServerName\Folders
 
 #Test Remote Connection -P$
-Test-Connection 8.8.8.8
+Test-NetConnection 8.8.8.8
 
 #TraceRoute - P$
-Test-Connection 8.8.8.8 -TraceRoute
+Test-NetConnection 8.8.8.8 -TraceRoute
 
 #Test by Port
-Test-Connection -CommonTCPPort HTTP -ComputerName google.com.au
+Test-NetConnection -CommonTCPPort HTTP -ComputerName google.com.au 
